@@ -6,7 +6,7 @@ import MobileNav from '@/components/MobileNav';
 import Nav from '@/components/Nav'
 import React, { useState } from 'react'
 import Projects from '../components/Projects';
-import Reviews from '@/components/Reviews';
+
 
 const HomePage = () => {
 
@@ -31,8 +31,6 @@ const closeNav = () => setNav(false);
         <Skills />
          {/* Projects Section */}
          <Projects />
-         {/* Reviews Section */}
-         <Reviews />
       </div> 
     </div>
   );
